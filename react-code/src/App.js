@@ -7,10 +7,11 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <ul>
+      <Navbar/>
+      {/* <ul>
         <li><Link to='/Home'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>
-      </ul>
+      </ul> */}
         <Routes>
           <Route path='/Home' element={<Home/>}></Route>
           <Route path='/About' element={<About/>}></Route>
