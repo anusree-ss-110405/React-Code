@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate,Link } from 'react-router-dom'
+
 export default function Navbar() {
 
   const navigate = useNavigate();
@@ -8,7 +9,8 @@ export default function Navbar() {
   return (
     <div>
       <ul>
-        <li onClick={handleHome}>HomeUsingNav</li>
+        <li onClick={handleHome}>Home</li>
+        <li onClick={handleAbout}>About</li>
       </ul>
     </div>
   )
