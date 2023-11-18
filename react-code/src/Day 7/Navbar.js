@@ -8,7 +8,7 @@ export default function Navbar() {
   const handleAbout = ()=>{navigate("/about")}
   return (
     <div>
-      <ul>
+      <ul>   
         <li onClick={handleHome}>Home</li>
         <li onClick={handleAbout}>About</li>
       </ul>
